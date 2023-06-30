@@ -1,0 +1,22 @@
+{
+  "name": "kafka-basics",
+  "version": "1.0.0",
+  "description": "Basic program for kafka broker, producer, consumer",
+  "main": "topic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crazy-nuclei/Kafka-basic.git"
+  },
+  "author": "Aayush Agarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crazy-nuclei/Kafka-basic/issues"
+  },
+  "homepage": "https://github.com/crazy-nuclei/Kafka-basic#readme",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
