@@ -7,3 +7,7 @@
     ```bash 
     node topic.js
     ```
+3. Send data to the topic using producer.js
+    ```bash 
+    node producer.js
+    ```
