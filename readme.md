@@ -9,5 +9,9 @@
     ```
 3. Send data to the topic using producer.js
     ```bash 
-    node producer.js
+    node producer.js "REPLACE THIS WITH THE MSG"
+    ```
+4. Start consumer.js on two terminals inside same consumer group so that each will recieve data from one shard of topic 
+    ```bash 
+    node consumer.js
     ```
